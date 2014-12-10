@@ -13,7 +13,7 @@
  */
 class DriverConexaoDAO extends PDO {
     
-	private $dsn = 'mysql:host=localhost;port=3306;dbname=NOMEDOBANCO';
+	private $dsn = 'pgsql:host=localhost;port=3306;dbname=NOMEDOBANCO';
 	private $user = 'USUARIODOBANCO';
 	private $password = 'SENHADOBANCO';
 	public $handle = null;
