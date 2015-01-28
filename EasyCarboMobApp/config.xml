@@ -4,8 +4,8 @@
   <description>
         An Ionic Framework and Cordova project.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="rafael@jupitertec.com.br" href="http://jupitertec.com.br/">
+      JúpiterTEC
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -16,4 +16,6 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <preference name="SplashScreen" value="splash" />
+	<preference name="SplashScreenDelay" value="10000" />
 </widget>
