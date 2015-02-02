@@ -2,11 +2,11 @@
 <widget id="com.ionicframework.easycarbomobapp284971" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>EasyCarboMobApp</name>
   <description>
-        An Ionic Framework and Cordova project.
-    </description>
+		An Ionic Framework and Cordova project.
+	</description>
   <author email="rafael@jupitertec.com.br" href="http://jupitertec.com.br/">
-      JúpiterTEC
-    </author>
+	  JúpiterTEC
+	</author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
@@ -14,8 +14,10 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
   <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+	<param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-  <preference name="SplashScreen" value="splash" />
-	<preference name="SplashScreenDelay" value="10000" />
+	<platform name="android">
+			<preference name="SplashScreenDelay" value="10000" />
+	</platform>
+	
 </widget>
